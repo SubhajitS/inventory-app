@@ -11,4 +11,5 @@ spec:
   owner: group:guests
   system: inventory-app
   subcomponentOf: inventory-service
-  consumesApis: counter-api
+  consumesApis: 
+    - counter-api
